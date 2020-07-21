@@ -1,0 +1,37 @@
+.content {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+  .title {
+    margin: 0 0 20px 0;
+  }
+  .description {
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    img {
+      transition: transform 400ms cubic-bezier(.39,.8,.43,.98),
+        opacity 100ms cubic-bezier(.39,.8,.43,.98);
+      height: 50vh;
+      opacity: 0;
+      transform: translate(0, 100vh);
+      &:nth-child(even) {
+        padding-top: 10vh;
+      }
+    }
+  }
+  &.enter {
+    .images {
+      img {
+        opacity: 1;
+        transform: translate(0, 0);
+        @for $i from 1 to 10 {
+          &:nth-child(#{$i}) { transition-delay: $i * 100ms; }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.nav-menu {
+  border: 5px solid black;
+  padding: 20px;
+  margin: 20px;
+  span {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    &.active {
+      background: black;
+      color: white;
+    }
+  }
+}

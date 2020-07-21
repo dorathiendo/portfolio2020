@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 20px;
+  align-items: flex-start;
+  .content-wrapper {
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow: auto;
+  }
+}
