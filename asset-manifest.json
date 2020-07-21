@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio2020/static/css/main.6ec9ca67.chunk.css",
+    "main.css": "/portfolio2020/static/css/main.c687c5d2.chunk.css",
     "main.js": "/portfolio2020/static/js/main.185f9727.chunk.js",
     "main.js.map": "/portfolio2020/static/js/main.185f9727.chunk.js.map",
     "runtime-main.js": "/portfolio2020/static/js/runtime-main.99f84d1c.js",
@@ -8,9 +8,9 @@
     "static/js/2.c3047c94.chunk.js": "/portfolio2020/static/js/2.c3047c94.chunk.js",
     "static/js/2.c3047c94.chunk.js.map": "/portfolio2020/static/js/2.c3047c94.chunk.js.map",
     "index.html": "/portfolio2020/index.html",
-    "precache-manifest.fc78210b555005a9892c2fe1952d101e.js": "/portfolio2020/precache-manifest.fc78210b555005a9892c2fe1952d101e.js",
+    "precache-manifest.e0e87e5e8fe6f2c1e4f448a63bf8fcb8.js": "/portfolio2020/precache-manifest.e0e87e5e8fe6f2c1e4f448a63bf8fcb8.js",
     "service-worker.js": "/portfolio2020/service-worker.js",
-    "static/css/main.6ec9ca67.chunk.css.map": "/portfolio2020/static/css/main.6ec9ca67.chunk.css.map",
+    "static/css/main.c687c5d2.chunk.css.map": "/portfolio2020/static/css/main.c687c5d2.chunk.css.map",
     "static/js/2.c3047c94.chunk.js.LICENSE.txt": "/portfolio2020/static/js/2.c3047c94.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/portfolio2020/static/media/1.0a55a67c.jpg",
     "static/media/2.jpg": "/portfolio2020/static/media/2.84aad6b4.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.99f84d1c.js",
     "static/js/2.c3047c94.chunk.js",
-    "static/css/main.6ec9ca67.chunk.css",
+    "static/css/main.c687c5d2.chunk.css",
     "static/js/main.185f9727.chunk.js"
   ]
 }
