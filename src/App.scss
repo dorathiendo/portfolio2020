@@ -8,4 +8,8 @@
     height: 100vh;
     overflow: auto;
   }
+
+  @media (max-width: 400px) {
+    grid-template-columns: 100%;
+  }
 }
