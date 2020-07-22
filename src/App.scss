@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 300px auto;
   column-gap: 20px;
   align-items: flex-start;
   .content-wrapper {
