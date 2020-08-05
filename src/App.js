@@ -3,14 +3,18 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    useLocation, BrowserRouter,
 } from "react-router-dom";
-import logo from './logo.svg';
+import {
+    TransitionGroup,
+    CSSTransition
+} from "react-transition-group";
 import NavMenu from './NavMenu';
-import Content from "./Content";
+import Routes from './Routes';
 import Home from './pages/Home';
-import './App.scss';
 import Project1 from "./pages/Project1";
+import './App.scss';
 import './Content.scss';
 
 function App() {
@@ -29,21 +33,14 @@ function App() {
             {/*    <Project1 id="project1" className="enter" title="Project #1"/>*/}
             {/*    /!*<Content id="project2" title="Project #2"/>*!/*/}
             {/*</div>*/}
-            <Router>
-                <NavMenu
-                    // onClickItem={(id) => executeScroll(id)}
-                />
-                <Switch>
-                    <Route path="/project1">
-                        <Project1 />
-                    </Route>
-                    <Route exact="/">
-                        <Home />
-                    </Route>
-                </Switch>
-            </Router>
+            <BrowserRouter>
+                <NavMenu/>
+                <Routes />
+            </BrowserRouter>
         </div>
     );
 }
+
+
 
 export default App;

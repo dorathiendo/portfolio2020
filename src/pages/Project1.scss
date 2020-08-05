@@ -1,10 +1,5 @@
 .project1 {
   .images {
-    display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    img {
-      width: 80%;
-      height: auto;
-    }
   }
 }
